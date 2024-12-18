@@ -1,6 +1,6 @@
 ## Total Remover
 <div align=center>
-### ⊰Mostly deleting functionality, although possibility to change stuff⊱
+ ⊰Mostly deleting functionality, although possibility to change stuff⊱
 </div>
 
 ## How To Start Using:
