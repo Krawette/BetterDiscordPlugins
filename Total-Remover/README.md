@@ -2,4 +2,4 @@
 
 ## ⊰Mostly deleting functionality, although possibility to change stuff⊱
 
-Download on BetterDiscord site.
+Download from here or BetterDiscord site.
