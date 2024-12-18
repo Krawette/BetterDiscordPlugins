@@ -1,6 +1,6 @@
-## Total Remover
 <div align=center>
- ⊰Mostly deleting functionality, although possibility to change stuff⊱
+<h2>Total Remover</h2>
+<h3>⊰Mostly deleting functionality, although possibility to change stuff⊱</h3>
 </div>
 
 ## How To Start Using:
@@ -10,4 +10,4 @@
 * Scroll to bottom of Discord's Settings Tabs, and find  Button with "Total Remover".
 * Click, search for proper options, switch and should be done.
 
-### Download from Github Repository or BetterDiscord site.
+###3 Download from Github Repository or BetterDiscord site.
