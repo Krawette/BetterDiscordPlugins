@@ -10,4 +10,4 @@
 * Scroll to bottom of Discord's Settings Tabs, and find  Button with "Total Remover".
 * Click, search for proper options, switch and should be done.
 
-###3 Download from Github Repository or BetterDiscord site.
+#### Download from Github Repository or BetterDiscord site.
