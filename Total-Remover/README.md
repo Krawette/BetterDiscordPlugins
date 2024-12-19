@@ -4,8 +4,8 @@
 </div>
 
 ## How To Start Using:
-* Download the Plugin via Github or Better Discord.
-* Unpack (If rap/zip etc.), throw it into B.D. Plugins path.
+* Download the Plugin via Github or Better-Discord site.
+* Unpack (If rar/zip etc.), throw it into B.D. Plugins path.
 * Activate this - in Discord, from B.D. Plugins Tab (D.C. Settings).
 * Scroll to bottom of Discord's Settings Tabs, and find  Button with "Total Remover".
 * Click, search for proper options, switch and should be done.
