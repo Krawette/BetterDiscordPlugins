@@ -1,6 +1,7 @@
-<div align=center>
-<h2>Total Remover</h2>
-<h3>⊰Mostly deleting functionality, although possibility to change stuff⊱</h3>
+<div align="center">
+  <h2>Total Remover</h2>
+  <h3>⊰Mostly deleting functionality, although possibility to change stuff⊱</h3>
+  <img src="https://github.com/user-attachments/assets/ec0a39db-d7fa-49e5-b6c4-0e17829a6383" alt="Total Remover Image">
 </div>
 
 ## How To Start Using:
