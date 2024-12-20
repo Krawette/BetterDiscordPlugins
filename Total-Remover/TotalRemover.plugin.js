@@ -2,7 +2,7 @@
  * @name TotalRemover
  * @author GraczNet
  * @description ⊰Mostly deleting functionality, although possibility to change stuff⊱
- * @version 0.0.5
+ * @version 0.0.6
  */
 
 module.exports = meta =>
@@ -25,7 +25,7 @@ module.exports = meta =>
 // ============================================== //
 // Adding Remover Button for DC sidebar and other //
 // ============================================== //
-  // This implements a button to appear the Menu.
+  // This implements a button, which will appear the Menu, at discord's settings/Tab column.
   function AddsButtonToMenu()
   {
     const DiscordSettingsButtonsColumn = document.querySelector(".side_a0");
@@ -43,14 +43,14 @@ module.exports = meta =>
         DiscordCreateMenuButton.setAttribute('role', "tab");
         DiscordCreateMenuButton.setAttribute('tabindex', "-1");
         DiscordCreateMenuButton.setAttribute('aria-label', "Total Remover");
-        DiscordCreateMenuButton.setAttribute('title', "Version - 0.0.5");
+        DiscordCreateMenuButton.setAttribute('title', "Version - 0.0.6");
         DiscordCreateMenuButton.addEventListener('click', TheMenu);
       }
     }
     DiscordCheckForSettingsPage = setTimeout(AddsButtonToMenu, 1000);
   }
 
-  // This gives the appearing for TheMenu.
+  // The Function for displaying: "Remover Settings" Popout/Page.
   function TheMenu()
   {
     const DiscordMenuButton = document.querySelector(".Total_Remover");
@@ -79,14 +79,14 @@ module.exports = meta =>
     }
   }
 
-  // Checks if you have clicked the "backgorund" = Remover_Holder , instead of its children divs.
+  // Checks if you have clicked the "background" the div id="Remover_Holder", instead of its children elements.
   function CheckIfOnlyHolderClicked()
   {
     const RemoverHolder = document.querySelector("#Remover_Holder");
     if (event.target === RemoverHolder) {TheMenu()}
   }
 
-  // This functions clears everything, while this plugin is OFF.
+  // The Function for clearing changes - made while the Plugin was ON state.
   function ClearStuffWhileOFF()
   {
     const DiscordSettingsButtonsColumn = document.querySelector(".side_a0");
@@ -99,11 +99,12 @@ module.exports = meta =>
     BdApi.DOM.removeStyle("TotalRemoverDataModifierStyle-30"); BdApi.DOM.removeStyle("TotalRemoverDataModifierStyle-31"); BdApi.DOM.removeStyle("TotalRemoverDataModifierStyle-32"); BdApi.DOM.removeStyle("TotalRemoverDataModifierStyle-33"); BdApi.DOM.removeStyle("TotalRemoverDataModifierStyle-34"); BdApi.DOM.removeStyle("TotalRemoverDataModifierStyle-35"); BdApi.DOM.removeStyle("TotalRemoverDataModifierStyle-36");
     BdApi.DOM.removeStyle("TotalRemoverDataModifierStyle-37"); BdApi.DOM.removeStyle("TotalRemoverDataModifierStyle-38"); BdApi.DOM.removeStyle("TotalRemoverDataModifierStyle-39"); BdApi.DOM.removeStyle("TotalRemoverDataModifierStyle-40"); BdApi.DOM.removeStyle("TotalRemoverDataModifierStyle-41"); BdApi.DOM.removeStyle("TotalRemoverDataModifierStyle-42"); BdApi.DOM.removeStyle("TotalRemoverDataModifierStyle-43");
     BdApi.DOM.removeStyle("TotalRemoverDataModifierStyle-44"); BdApi.DOM.removeStyle("TotalRemoverDataModifierStyle-45"); BdApi.DOM.removeStyle("TotalRemoverDataModifierStyle-46"); BdApi.DOM.removeStyle("TotalRemoverDataModifierStyle-47"); BdApi.DOM.removeStyle("TotalRemoverDataModifierStyle-48"); BdApi.DOM.removeStyle("TotalRemoverDataModifierStyle-49"); BdApi.DOM.removeStyle("TotalRemoverDataModifierStyle-50");
+    BdApi.DOM.removeStyle("TotalRemoverDataModifierStyle-51"); BdApi.DOM.removeStyle("TotalRemoverDataModifierStyle-52");
   }
 
-// ======================= //
-// The Menu HTML Structure //
-// ======================= //
+// ================================================ //
+// The Menu "HTML" Structure for "Remover Settings" //
+// ================================================ //
   function MenuData()
   {
     const MenuHolder = document.querySelector("#Remover_Holder");
@@ -736,7 +737,7 @@ module.exports = meta =>
       </div>
       <!-- Additional Buttons Bar -->
       <div id="Additional_Buttons_Plate">
-        <button class="Additional_Button" id="Remover_Exit_Button">Exit Settings</button> <button class="Additional_Button" id="Remover_DCserver_Button" onclick='window.open("https://discord.gg/gj7JFa6mF8", "_blank");' title='Join: "Pillow Fort"'>Remover Discord Server</button> <button class="Additional_Button" id="Remover_GITissuePage_Button" onclick='window.open("https://en.wikipedia.org/wiki/Wikipedia", "_blank");' title="Wikipedia Lmao">Remover Github Issue Page</button>
+        <button class="Additional_Button" id="Remover_Exit_Button">Exit Settings</button> <button class="Additional_Button" id="Remover_DCserver_Button" onclick='window.open("https://discord.gg/gj7JFa6mF8", "_blank");' title='Join: "Pillow Fort"'>Remover Discord Server</button> <button class="Additional_Button" id="Remover_GITissuePage_Button" onclick='window.open("https://github.com/Krawette/BetterDiscordPlugins/issues", "_blank");' title="Website: Krawette-GitHub">Remover Github Issue Page</button>
       </div>
     </div>`;
 
